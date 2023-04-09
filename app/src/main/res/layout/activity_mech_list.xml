@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".mech.MechListActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MECH"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_30sdp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_textBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Text Book"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Notes"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_syllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Syllabus"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_prevYrQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Previous Year Question Papers"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_labmanual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Lab Manual"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Upload (Only Staff&amp; Admin)"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+    <Spinner
+        android:id="@+id/spinnerMech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        />
+
+
+</LinearLayout>

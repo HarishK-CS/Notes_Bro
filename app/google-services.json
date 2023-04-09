@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020248713450",
+    "project_id": "notes-bro",
+    "storage_bucket": "notes-bro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020248713450:android:0958ce2c6fa5901b598f93",
+        "android_client_info": {
+          "package_name": "com.techcos.notesbro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020248713450-8tnjp3ve3mbashar1qppl21f22brar5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2yUv33L9UtiBUypXcXdiFXw4cBeMUVqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020248713450-8tnjp3ve3mbashar1qppl21f22brar5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
