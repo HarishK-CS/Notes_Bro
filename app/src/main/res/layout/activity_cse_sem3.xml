@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".cse.CseSem1Activity">
+    tools:context=".cse.CseSem3Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,11 +15,11 @@
         android:gravity="center"
         android:textSize="@dimen/_18sdp"
         android:textStyle="bold"
-        android:text="Semester 1 - CSE"
+        android:text="Semester 3 - CSE"
         android:layout_marginBottom="@dimen/_30sdp"/>
 
     <TextView
-        android:id="@+id/m1"
+        android:id="@+id/sub1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
@@ -28,17 +28,17 @@
         android:background="#10C9E1"
         android:gravity="center"
         android:padding="@dimen/_10sdp"
-        android:text="Mathematics - I"
+        android:text="Mathematics - III"
         android:textSize="@dimen/_15sdp" />
 
     <LinearLayout
-        android:id="@+id/m1Group"
+        android:id="@+id/sub1Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/m1U1"
+            android:id="@+id/sub1U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -51,7 +51,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/m1U2"
+            android:id="@+id/sub1U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -64,7 +64,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/m1U3"
+            android:id="@+id/sub1U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -77,7 +77,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/m1U4"
+            android:id="@+id/sub1U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -90,7 +90,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/m1U5"
+            android:id="@+id/sub1U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -107,7 +107,7 @@
 
 
     <TextView
-        android:id="@+id/phy"
+        android:id="@+id/sub2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_10sdp"
@@ -116,17 +116,17 @@
         android:background="#10C9E1"
         android:gravity="center"
         android:padding="@dimen/_10sdp"
-        android:text="Physics"
+        android:text="Electronics Devices and Circuits"
         android:textSize="@dimen/_15sdp" />
 
     <LinearLayout
-        android:id="@+id/physicsGroup"
+        android:id="@+id/sub2Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/phyU1"
+            android:id="@+id/sub2U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -139,7 +139,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/phyU2"
+            android:id="@+id/sub2U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -152,7 +152,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/phyU3"
+            android:id="@+id/sub2U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -165,7 +165,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/phyU4"
+            android:id="@+id/sub2U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -178,7 +178,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/phyU5"
+            android:id="@+id/sub2U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -193,11 +193,11 @@
 
     </LinearLayout>
     <TextView
-        android:id="@+id/che"
+        android:id="@+id/sub3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Chemistry"
+        android:text="Object Oriented Programming and Design"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
         android:layout_marginStart="@dimen/_10sdp"
@@ -206,13 +206,13 @@
         android:background="#10C9E1"
         />
     <LinearLayout
-        android:id="@+id/cheGroup"
+        android:id="@+id/sub3Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/cheU1"
+            android:id="@+id/sub3U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -225,7 +225,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cheU2"
+            android:id="@+id/sub3U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -238,7 +238,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cheU3"
+            android:id="@+id/sub3U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -251,7 +251,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cheU4"
+            android:id="@+id/sub3U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -264,7 +264,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cheU5"
+            android:id="@+id/sub3U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -279,11 +279,11 @@
 
     </LinearLayout>
     <TextView
-        android:id="@+id/beee"
+        android:id="@+id/sub4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Basic Electrical and Electronics Engineering"
+        android:text="Digital System Design"
         android:background="#10C9E1"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
@@ -292,13 +292,13 @@
         android:layout_marginBottom="@dimen/_3sdp"
         />
     <LinearLayout
-        android:id="@+id/beeeGroup"
+        android:id="@+id/sub4Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/beeeU1"
+            android:id="@+id/sub4U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -311,7 +311,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/beeeU2"
+            android:id="@+id/sub4U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -324,7 +324,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/beeeU3"
+            android:id="@+id/sub4U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -337,7 +337,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/beeeU4"
+            android:id="@+id/sub4U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -350,7 +350,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/beeeU5"
+            android:id="@+id/sub4U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -365,11 +365,11 @@
 
     </LinearLayout>
     <TextView
-        android:id="@+id/td"
+        android:id="@+id/sub5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Engineering Thermodynamics"
+        android:text="Data Structures"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
         android:layout_marginStart="@dimen/_10sdp"
@@ -378,13 +378,13 @@
         android:background="#10C9E1"
         />
     <LinearLayout
-        android:id="@+id/tdGroup"
+        android:id="@+id/sub5Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/tdU1"
+            android:id="@+id/sub5U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -397,7 +397,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/tdU2"
+            android:id="@+id/sub5U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -410,7 +410,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/tdU3"
+            android:id="@+id/sub5U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -423,7 +423,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/tdU4"
+            android:id="@+id/sub5U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -436,7 +436,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/tdU5"
+            android:id="@+id/sub5U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -451,11 +451,11 @@
 
     </LinearLayout>
     <TextView
-        android:id="@+id/cp"
+        android:id="@+id/sub6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Computer programming"
+        android:text="Computer Organization and Architecture"
         android:gravity="center"
         android:padding="@dimen/_10sdp"
         android:layout_marginStart="@dimen/_10sdp"
@@ -464,13 +464,13 @@
         android:background="#10C9E1"
         />
     <LinearLayout
-        android:id="@+id/cpGroup"
+        android:id="@+id/sub6Group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/cpU1"
+            android:id="@+id/sub6U1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -483,7 +483,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cpU2"
+            android:id="@+id/sub6U2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -496,7 +496,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cpU3"
+            android:id="@+id/sub6U3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -509,7 +509,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cpU4"
+            android:id="@+id/sub6U4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
@@ -522,7 +522,7 @@
             android:background="#1053FF"
             />
         <TextView
-            android:id="@+id/cpU5"
+            android:id="@+id/sub6U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"

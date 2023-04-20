@@ -14,6 +14,27 @@
         android:theme="@style/Theme.NotesBro"
         tools:targetApi="33">
         <activity
+            android:name=".cse.CseSem8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.CseSem2Activity"
+            android:exported="false" />
+        <activity
             android:name=".civil.CivilListActivity"
             android:exported="false" />
         <activity
