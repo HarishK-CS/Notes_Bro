@@ -28,7 +28,7 @@
         android:background="#10C9E1"
         android:gravity="center"
         android:padding="@dimen/_10sdp"
-        android:text="Mathematics - I"
+        android:text="Professional Ethics"
         android:textSize="@dimen/_15sdp" />
 
     <LinearLayout
@@ -116,7 +116,7 @@
         android:background="#10C9E1"
         android:gravity="center"
         android:padding="@dimen/_10sdp"
-        android:text="Physics"
+        android:text="Engineering Economics and Management"
         android:textSize="@dimen/_15sdp" />
 
     <LinearLayout
@@ -197,7 +197,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Chemistry"
+        android:text="Information Security"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
         android:layout_marginStart="@dimen/_10sdp"
@@ -283,7 +283,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Basic Electrical and Electronics Engineering"
+        android:text="Grid Computing"
         android:background="#10C9E1"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
@@ -369,7 +369,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_15sdp"
-        android:text="Engineering Thermodynamics"
+        android:text="Cloud Computing"
         android:padding="@dimen/_10sdp"
         android:gravity="center"
         android:layout_marginStart="@dimen/_10sdp"
@@ -437,92 +437,6 @@
             />
         <TextView
             android:id="@+id/sub5U5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_15sdp"
-            android:text="Unit - V"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_3sdp"
-            android:padding="@dimen/_10sdp"
-            android:gravity="center"
-            android:background="#1053FF"
-            />
-
-    </LinearLayout>
-    <TextView
-        android:id="@+id/sub6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/_15sdp"
-        android:text="Computer programming"
-        android:gravity="center"
-        android:padding="@dimen/_10sdp"
-        android:layout_marginStart="@dimen/_10sdp"
-        android:layout_marginEnd="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_3sdp"
-        android:background="#10C9E1"
-        />
-    <LinearLayout
-        android:id="@+id/sub6Group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/sub6U1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_15sdp"
-            android:text="Unit - I"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_3sdp"
-            android:padding="@dimen/_10sdp"
-            android:gravity="center"
-            android:background="#1053FF"
-            />
-        <TextView
-            android:id="@+id/sub6U2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_15sdp"
-            android:text="Unit - II"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_3sdp"
-            android:padding="@dimen/_10sdp"
-            android:gravity="center"
-            android:background="#1053FF"
-            />
-        <TextView
-            android:id="@+id/sub6U3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_15sdp"
-            android:text="Unit - III"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_3sdp"
-            android:padding="@dimen/_10sdp"
-            android:gravity="center"
-            android:background="#1053FF"
-            />
-        <TextView
-            android:id="@+id/sub6U4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_15sdp"
-            android:text="Unit - IV"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_3sdp"
-            android:padding="@dimen/_10sdp"
-            android:gravity="center"
-            android:background="#1053FF"
-            />
-        <TextView
-            android:id="@+id/sub6U5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/_15sdp"
