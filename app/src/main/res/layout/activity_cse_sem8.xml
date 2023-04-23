@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".cse.CseSem8Activity">
+    tools:context=".cse.notes.CseSem8Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -102,10 +102,7 @@
             android:gravity="center"
             android:background="#1053FF"
             />
-
     </LinearLayout>
-
-
     <TextView
         android:id="@+id/sub2"
         android:layout_width="match_parent"

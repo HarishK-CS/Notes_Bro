@@ -1,4 +1,4 @@
-package com.techcos.notesbro.cse;
+package com.techcos.notesbro.cse.notes;
 
 import androidx.appcompat.app.AppCompatActivity;
 

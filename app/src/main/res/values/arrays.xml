@@ -17,5 +17,16 @@
         <item>CIVIL</item>
         <item>MECH</item>
     </string-array>
+    <string-array name="sem">
+        <item>SEM I</item>
+        <item>SEM II</item>
+        <item>SEM III</item>
+        <item>SEM IV</item>
+        <item>SEM V</item>
+        <item>SEM VI</item>
+        <item>SEM VII</item>
+        <item>SEM VIII</item>
+    </string-array>
+
 
 </resources>

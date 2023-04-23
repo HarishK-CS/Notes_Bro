@@ -6,9 +6,16 @@ import androidx.appcompat.widget.AppCompatButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 
 import com.techcos.notesbro.R;
+import com.techcos.notesbro.cse.notes.CseSem1Activity;
+import com.techcos.notesbro.cse.notes.CseSem2Activity;
+import com.techcos.notesbro.cse.notes.CseSem3Activity;
+import com.techcos.notesbro.cse.notes.CseSem4Activity;
+import com.techcos.notesbro.cse.notes.CseSem5Activity;
+import com.techcos.notesbro.cse.notes.CseSem6Activity;
+import com.techcos.notesbro.cse.notes.CseSem7Activity;
+import com.techcos.notesbro.cse.notes.CseSem8Activity;
 
 public class CseNotesActivity extends AppCompatActivity {
 
@@ -32,56 +39,56 @@ public class CseNotesActivity extends AppCompatActivity {
         sem1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem1Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem1Activity.class);
                 startActivity(intent);
             }
         });
         sem2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem2Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem2Activity.class);
                 startActivity(intent);
             }
         });
         sem3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem3Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem3Activity.class);
                 startActivity(intent);
             }
         });
         sem4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem4Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem4Activity.class);
                 startActivity(intent);
             }
         });
         sem5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem5Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem5Activity.class);
                 startActivity(intent);
             }
         });
         sem6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem6Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem6Activity.class);
                 startActivity(intent);
             }
         });
         sem7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem7Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem7Activity.class);
                 startActivity(intent);
             }
         });
         sem8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CseNotesActivity.this,CseSem8Activity.class);
+                Intent intent = new Intent(CseNotesActivity.this, CseSem8Activity.class);
                 startActivity(intent);
             }
         });

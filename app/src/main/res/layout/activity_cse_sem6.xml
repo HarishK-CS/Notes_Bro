@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".cse.CseSem6Activity">
+    tools:context=".cse.notes.CseSem6Activity">
 
     <TextView
         android:layout_width="match_parent"

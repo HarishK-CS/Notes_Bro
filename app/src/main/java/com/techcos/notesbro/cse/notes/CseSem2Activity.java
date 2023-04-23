@@ -1,4 +1,4 @@
-package com.techcos.notesbro.cse;
+package com.techcos.notesbro.cse.notes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.techcos.notesbro.R;
 
-public class CseSem5Activity extends AppCompatActivity {
+public class CseSem2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cse_sem5);
+        setContentView(R.layout.activity_cse_sem2);
     }
 }

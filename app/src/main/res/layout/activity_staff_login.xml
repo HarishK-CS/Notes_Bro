@@ -1,16 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".login.StaffLoginActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Staff Login"
-        />
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/msg_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Enter Your Phone Number"
+            android:gravity="center"
+
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We will send a One Time Password on this Number"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/edittext_shape"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="+91 - "
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#090909" />
+
+            <EditText
+                android:id="@+id/inputMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="XXXXXXXXXX"
+                android:inputType="number"
+                android:maxLength="10"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#090909"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonGetOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET OTP"
+                android:gravity="center"
+                android:background="@drawable/sign_in_btn"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textColor="#fff"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

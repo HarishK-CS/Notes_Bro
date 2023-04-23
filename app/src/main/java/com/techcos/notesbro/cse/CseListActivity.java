@@ -94,6 +94,14 @@ public class CseListActivity extends AppCompatActivity {
 
         registerReceiver(onDownloadComplete,new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
 
+        txtBook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CseListActivity.this,CseTextbookActivity.class);
+                startActivity(intent);
+            }
+        });
+
         notes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

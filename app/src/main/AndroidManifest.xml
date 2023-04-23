@@ -14,25 +14,31 @@
         android:theme="@style/Theme.NotesBro"
         tools:targetApi="33">
         <activity
-            android:name=".cse.CseSem8Activity"
+            android:name=".cse.textbooks.CseTextBookActivity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem7Activity"
+            android:name=".cse.CseTextbookActivity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem6Activity"
+            android:name=".cse.notes.CseSem8Activity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem5Activity"
+            android:name=".cse.notes.CseSem7Activity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem4Activity"
+            android:name=".cse.notes.CseSem6Activity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem3Activity"
+            android:name=".cse.notes.CseSem5Activity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem2Activity"
+            android:name=".cse.notes.CseSem4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.notes.CseSem3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".cse.notes.CseSem2Activity"
             android:exported="false" />
         <activity
             android:name=".civil.CivilListActivity"
@@ -56,7 +62,7 @@
             android:name=".cse.CseNotesActivity"
             android:exported="false" />
         <activity
-            android:name=".cse.CseSem1Activity"
+            android:name=".cse.notes.CseSem1Activity"
             android:exported="false" />
         <activity
             android:name=".login.StaffLoginActivity"
