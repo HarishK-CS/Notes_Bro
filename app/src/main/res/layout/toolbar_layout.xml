@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_app_bar"
+    android:layout_width="match_parent"
+    android:background="@color/purple_700"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NotesBro"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_140sdp"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/admin"
+        android:src="@drawable/admin"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_width="@dimen/_20sdp"
+        android:visibility="gone"
+        android:layout_height="@dimen/_20sdp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/upload"
+        android:src="@drawable/upload"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logout"
+        android:src="@drawable/logout"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"/>
+</androidx.appcompat.widget.Toolbar>

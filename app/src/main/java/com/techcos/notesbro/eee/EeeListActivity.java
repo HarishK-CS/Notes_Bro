@@ -34,7 +34,6 @@ public class EeeListActivity extends AppCompatActivity {
     AppCompatButton syllabus;
     AppCompatButton prevYrQues;
     AppCompatButton labManual;
-    AppCompatButton upload;
     Spinner depts;
 
     FirebaseStorage fs;
@@ -134,7 +133,6 @@ public class EeeListActivity extends AppCompatActivity {
         syllabus = findViewById(R.id.Btn_syllabus);
         prevYrQues = findViewById(R.id.Btn_prevYrQues);
         labManual = findViewById(R.id.Btn_labmanual);
-        upload = findViewById(R.id.Btn_upload);
 
         depts = findViewById(R.id.spinnerEee);
     }

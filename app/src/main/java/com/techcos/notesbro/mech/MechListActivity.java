@@ -29,18 +29,14 @@ import com.techcos.notesbro.it.ItListActivity;
 
 public class MechListActivity extends AppCompatActivity {
 
-    AppCompatButton txtBook;
-    AppCompatButton notes;
-    AppCompatButton syllabus;
-    AppCompatButton prevYrQues;
-    AppCompatButton labManual;
-    AppCompatButton upload;
+    AppCompatButton txtBook,notes,syllabus,prevYrQues,labManual;
     Spinner depts;
 
     FirebaseStorage fs;
     StorageReference sr;
     DownloadManager downloadManager;
     long reference;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -134,7 +130,6 @@ public class MechListActivity extends AppCompatActivity {
         syllabus = findViewById(R.id.Btn_syllabus);
         prevYrQues = findViewById(R.id.Btn_prevYrQues);
         labManual = findViewById(R.id.Btn_labmanual);
-        upload = findViewById(R.id.Btn_upload);
 
         depts = findViewById(R.id.spinnerMech);
     }

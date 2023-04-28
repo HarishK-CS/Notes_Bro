@@ -27,6 +27,73 @@
         <item>SEM VII</item>
         <item>SEM VIII</item>
     </string-array>
+    <string-array name="unit">
+        <item>UNIT I</item>
+        <item>UNIT II</item>
+        <item>UNIT III</item>
+        <item>UNIT IV</item>
+        <item>UNIT V</item>
+    </string-array>
+    <string-array name="cseSem1">
+        <item>Mathematics – I</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Basic Electrical and Electronics Engineering</item>
+        <item>Engineering Thermodynamics</item>
+        <item>Computer Programming</item>
+    </string-array>
+    <string-array name="cseSem2">
+        <item>Mathematics – II</item>
+        <item>Material Science</item>
+        <item>Environmental Science</item>
+        <item>Basic Civil and Mechanical Engineering</item>
+        <item>Engineering Mechanics</item>
+        <item>Communicative English</item>
+    </string-array>
+    <string-array name="cseSem3">
+        <item>Mathematics – III</item>
+        <item>Electronics Devices and Circuits</item>
+        <item>Object Oriented Programming and Design</item>
+        <item>Digital System Design</item>
+        <item>Data Structures</item>
+        <item>Computer Organization and Architecture</item>
+
+    </string-array>
+    <string-array name="cseSem4">
+        <item>Mathematics – IV</item>
+        <item>Microprocessors and Microcontrollers</item>
+        <item>Automata Languages and Computations</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Object Oriented Programming</item>
+        <item>Graphics and Image Processing</item>
+    </string-array>
+    <string-array name="cseSem5">
+        <item>Operating Systems</item>
+        <item>Computer Networks</item>
+        <item>Database Management Systems</item>
+        <item>Language Translators</item>
+        <item>Software Engineering</item>
+    </string-array>
+    <string-array name="cseSem6">
+        <item>Enterprise Solutions</item>
+        <item>Embedded Systems</item>
+        <item>Web Technology</item>
+        <item>Object Oriented Analysis and Design</item>
+        <item>E-Business</item>
+    </string-array>
+    <string-array name="cseSem7">
+        <item>Artificial Intelligence</item>
+        <item>Computer Hardware and Network Trouble Shooting</item>
+        <item>Platform Technology</item>
+        <item>Software Testing and Quality Assurance</item>
+    </string-array>
+    <string-array name="cseSem8">
+        <item>Professional Ethics</item>
+        <item>Engineering Economics and Management</item>
+        <item>Information Security</item>
+        <item>Grid Computing</item>
+        <item>Cloud Computing</item>
+    </string-array>
 
 
 </resources>

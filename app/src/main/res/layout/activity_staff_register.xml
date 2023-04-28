@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.StaffLoginActivity">
+    tools:context=".login.StaffRegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,16 +17,15 @@
 
         <ImageView
             android:layout_width="@dimen/_90sdp"
-            android:layout_height="@dimen/_90sdp"
-            android:background="@drawable/msg_logo" />
+            android:layout_height="@dimen/_60sdp"
+            android:background="@drawable/email_icon" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:text="Enter Your Phone Number"
+            android:text="Sign Up"
             android:gravity="center"
-
             android:textSize="@dimen/_18sdp"
             android:textStyle="bold"
             android:textColor="#090909"
@@ -35,76 +34,97 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="We will send a One Time Password on this Number"
             android:layout_marginStart="@dimen/_25sdp"
             android:layout_marginTop="@dimen/_8sdp"
             android:layout_marginEnd="@dimen/_25sdp"
             android:gravity="center"
             android:padding="@dimen/_10sdp"
-            android:textStyle="bold"
-            />
+            android:text="Please Attach Your Staff identity card for verificaton. After Verification , We send You a password with it."
+            android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_shape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
+            android:hint="Name" />
+
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            android:padding="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/edittext_shape"
             android:gravity="center"
             android:orientation="horizontal"
-            android:background="@drawable/edittext_shape"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
-                android:gravity="center"
-                android:text="+91 - "
-                android:textSize="@dimen/_15sdp"
-                android:textColor="#090909" />
-
+            android:padding="@dimen/_10sdp">
             <EditText
-                android:id="@+id/inputMobile"
+                android:id="@+id/inputEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_20sdp"
                 android:background="@null"
                 android:gravity="center"
-                android:hint="XXXXXXXXXX"
-                android:inputType="number"
-                android:maxLength="10"
+                android:hint="name@domain.com"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
-                android:textSize="@dimen/_15sdp"
                 android:textColor="#090909"
+                android:textSize="@dimen/_15sdp"
 
                 />
-
-
-
         </LinearLayout>
-
-
+        <Spinner
+            android:id="@+id/dept"
+            android:layout_width="200dp"
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/logInStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Have Login &amp; Password ? Click Here  "
+            android:textStyle="bold" />
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <Button
-                android:id="@+id/buttonGetOTP"
+                android:id="@+id/sendMail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="GET OTP"
-                android:gravity="center"
-                android:background="@drawable/sign_in_btn"
-                android:padding="@dimen/_10sdp"
                 android:layout_marginStart="@dimen/_10sdp"
-                android:layout_marginEnd="@dimen/_10sdp"
-                android:textColor="#fff"
-                android:textSize="@dimen/_14sdp"
                 android:layout_marginTop="@dimen/_30sdp"
-                />
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/sign_in_btn"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Send mail"
+                android:textColor="#fff"
+                android:textSize="@dimen/_14sdp" />
+
             <ProgressBar
                 android:id="@+id/progressBar"
                 android:layout_width="@dimen/_30sdp"
@@ -115,9 +135,6 @@
 
         </FrameLayout>
 
-
     </LinearLayout>
-
-
 
 </RelativeLayout>

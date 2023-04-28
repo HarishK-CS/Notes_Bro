@@ -34,7 +34,6 @@ public class ItListActivity extends AppCompatActivity {
     AppCompatButton syllabus;
     AppCompatButton prevYrQues;
     AppCompatButton labManual;
-    AppCompatButton upload;
     Spinner depts;
 
     FirebaseStorage fs;
@@ -59,7 +58,7 @@ public class ItListActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (adapterView.getItemAtPosition(i).toString().equals("CSE")){
-                    Intent intent =  new Intent(ItListActivity.this, CseListActivity.class);
+                    Intent intent =  new Intent(ItListActivity.this, ItSem1NotesActivity.class);
                     finish();
                     startActivity(intent);
                 } else if (adapterView.getItemAtPosition(i).toString().equals("EEE")) {
@@ -134,7 +133,6 @@ public class ItListActivity extends AppCompatActivity {
         syllabus = findViewById(R.id.Btn_syllabus);
         prevYrQues = findViewById(R.id.Btn_prevYrQues);
         labManual = findViewById(R.id.Btn_labmanual);
-        upload = findViewById(R.id.Btn_upload);
 
         depts = findViewById(R.id.spinnerIt);
     }

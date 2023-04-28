@@ -10,6 +10,7 @@ import android.view.View;
 import com.techcos.notesbro.R;
 import com.techcos.notesbro.cse.notes.CseSem1Activity;
 import com.techcos.notesbro.cse.notes.CseSem2Activity;
+import com.techcos.notesbro.cse.notes.CseSem2Activityyy;
 import com.techcos.notesbro.cse.notes.CseSem3Activity;
 import com.techcos.notesbro.cse.notes.CseSem4Activity;
 import com.techcos.notesbro.cse.notes.CseSem5Activity;

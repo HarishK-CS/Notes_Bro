@@ -5,15 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".it.ItListActivity">
-
-
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/toolbar_layout" />
+    </com.google.android.material.appbar.AppBarLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="IT"
+        android:layout_gravity="center"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="@dimen/_30sdp" />
@@ -86,23 +92,12 @@
         android:textColor="#fff"
         android:textSize="@dimen/_14sdp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Btn_upload"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_30sdp"
-        android:layout_marginEnd="@dimen/_10sdp"
-        android:backgroundTint="@color/purple_700"
-        android:gravity="center"
-        android:padding="@dimen/_10sdp"
-        android:text="Upload (Only Staff&amp; Admin)"
-        android:textColor="#fff"
-        android:textSize="@dimen/_14sdp" />
+
     <Spinner
         android:id="@+id/spinnerIt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="@dimen/_10sdp"
         />
 

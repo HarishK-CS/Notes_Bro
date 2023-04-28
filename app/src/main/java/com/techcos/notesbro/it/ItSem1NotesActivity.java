@@ -1,4 +1,4 @@
-package com.techcos.notesbro.cse.notes;
+package com.techcos.notesbro.it;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,26 +10,27 @@ import android.widget.Spinner;
 
 import com.techcos.notesbro.R;
 
-public class CseSem4Activity extends AppCompatActivity {
+public class ItSem1NotesActivity extends AppCompatActivity {
 
     Spinner sub,unit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cse_sem4);
+        setContentView(R.layout.activity_it_sem1_notes);
 
         findIDs();
+        ArrayAdapter<CharSequence> subAdapter = ArrayAdapter.createFromResource(this,R.array.dept,R.layout.custom_spinner);
+        sub.setAdapter(subAdapter);
 
-        ArrayAdapter<CharSequence> adapterSub = ArrayAdapter.createFromResource(this,R.array.cseSem4,R.layout.custom_spinner);
-        sub.setAdapter(adapterSub);
-
-        ArrayAdapter<CharSequence> adapterUnit = ArrayAdapter.createFromResource(this,R.array.unit,R.layout.custom_spinner);
-        unit.setAdapter(adapterUnit);
+        ArrayAdapter<CharSequence> unitAdapter = ArrayAdapter.createFromResource(this,R.array.dept,R.layout.custom_spinner);
+        unit.setAdapter(unitAdapter);
 
         sub.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-
+//                res_dept = adapterView.getItemAtPosition(i).toString();
+//                Toast.makeText(StudentLoginActivity.this, res_dept, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -41,7 +42,8 @@ public class CseSem4Activity extends AppCompatActivity {
         unit.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-
+//                res_dept = adapterView.getItemAtPosition(i).toString();
+//                Toast.makeText(StudentLoginActivity.this, res_dept, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -49,7 +51,6 @@ public class CseSem4Activity extends AppCompatActivity {
 
             }
         });
-
     }
     void findIDs(){
         sub = findViewById(R.id.subSpinner);

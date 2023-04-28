@@ -6,23 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".login.LoginActivity">
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/studentLogin"
+    tools:context=".admin.AdminInterfaceActivity">
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student"/>
+        android:text="Admin Interface"
+        />
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/staffLogin"
+        android:id="@+id/registerUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Staff"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/adminLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Admin"/>
+        android:text="Register User"/>
 
 
 </LinearLayout>
